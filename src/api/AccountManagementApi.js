@@ -12,7 +12,7 @@
  */
 
 
-import ApiClient from "../ApiClient";
+var  ApiClient =require("../ApiClient");
 
 /**
 * AccountManagement service.

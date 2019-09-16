@@ -12,36 +12,36 @@
  */
 
 
-import ApiClient from './ApiClient';
-import AddressBookItem from './model/AddressBookItem';
-import BookSummary from './model/BookSummary';
-import Currency from './model/Currency';
-import CurrencyPortfolio from './model/CurrencyPortfolio';
-import CurrencyWithdrawalPriorities from './model/CurrencyWithdrawalPriorities';
-import Deposit from './model/Deposit';
-import Instrument from './model/Instrument';
-import KeyNumberPair from './model/KeyNumberPair';
-import Order from './model/Order';
-import OrderIdInitialMarginPair from './model/OrderIdInitialMarginPair';
-import Portfolio from './model/Portfolio';
-import PortfolioEth from './model/PortfolioEth';
-import Position from './model/Position';
-import PublicTrade from './model/PublicTrade';
-import Settlement from './model/Settlement';
-import TradesVolumes from './model/TradesVolumes';
-import TransferItem from './model/TransferItem';
-import Types from './model/Types';
-import UserTrade from './model/UserTrade';
-import Withdrawal from './model/Withdrawal';
-import AccountManagementApi from './api/AccountManagementApi';
-import AuthenticationApi from './api/AuthenticationApi';
-import InternalApi from './api/InternalApi';
-import MarketDataApi from './api/MarketDataApi';
-import PrivateApi from './api/PrivateApi';
-import PublicApi from './api/PublicApi';
-import SupportingApi from './api/SupportingApi';
-import TradingApi from './api/TradingApi';
-import WalletApi from './api/WalletApi';
+var ApiClient =require( './ApiClient');
+var AddressBookItem =require( './model/AddressBookItem');
+var BookSummary =require( './model/BookSummary');
+var Currency =require( './model/Currency');
+var CurrencyPortfolio =require( './model/CurrencyPortfolio');
+var CurrencyWithdrawalPriorities =require( './model/CurrencyWithdrawalPriorities');
+var Deposit =require( './model/Deposit');
+var Instrument =require( './model/Instrument');
+var KeyNumberPair =require( './model/KeyNumberPair');
+var Order =require( './model/Order');
+var OrderIdInitialMarginPair =require( './model/OrderIdInitialMarginPair');
+var Portfolio =require( './model/Portfolio');
+var PortfolioEth =require( './model/PortfolioEth');
+var Position =require( './model/Position');
+var PublicTrade =require( './model/PublicTrade');
+var Settlement =require( './model/Settlement');
+var TradesVolumes =require( './model/TradesVolumes');
+var TransferItem =require( './model/TransferItem');
+var Types =require( './model/Types');
+var UserTrade =require( './model/UserTrade');
+var Withdrawal =require( './model/Withdrawal');
+var AccountManagementApi =require( './api/AccountManagementApi');
+var AuthenticationApi =require( './api/AuthenticationApi');
+var InternalApi =require( './api/InternalApi');
+var MarketDataApi =require( './api/MarketDataApi');
+var PrivateApi =require( './api/PrivateApi');
+var PublicApi =require( './api/PublicApi');
+var SupportingApi =require( './api/SupportingApi');
+var TradingApi =require( './api/TradingApi');
+var WalletApi =require( './api/WalletApi');
 
 
 /**

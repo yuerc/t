@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import CurrencyWithdrawalPriorities from './CurrencyWithdrawalPriorities';
+var  ApiClient =require( '../ApiClient');
+var CurrencyWithdrawalPriorities =require( './CurrencyWithdrawalPriorities');
 
 /**
  * The Currency model module.

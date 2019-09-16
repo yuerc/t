@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import PortfolioEth from './PortfolioEth';
+var ApiClient =require( '../ApiClient');
+var PortfolioEth =require( './PortfolioEth');
 
 /**
  * The Portfolio model module.

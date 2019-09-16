@@ -12,8 +12,8 @@
  */
 
 
-import superagent from "superagent";
-import querystring from "querystring";
+ superagent =require( "superagent");
+ querystring =require( "querystring");
 
 /**
 * @module ApiClient

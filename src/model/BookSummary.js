@@ -11,7 +11,7 @@
  *
  */
 
-import ApiClient from '../ApiClient';
+var  ApiClient =require( '../ApiClient');
 
 /**
  * The BookSummary model module.
